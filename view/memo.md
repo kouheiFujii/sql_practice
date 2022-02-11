@@ -8,6 +8,7 @@
 
 ## ビューの制限
 - order by が使えない
+- 更新系（insert, delete, update）に制約がある
 
 ## メリット
 - select 文の使い回し

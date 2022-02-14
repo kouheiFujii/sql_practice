@@ -4,6 +4,6 @@
 */
 
 select
-  round(avg(o.amount)) avg
+  round(avg(o.amount), 0) avg
 from
   orders o;
